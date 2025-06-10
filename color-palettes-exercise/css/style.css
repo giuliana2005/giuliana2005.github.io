@@ -1,0 +1,75 @@
+#cp1 {
+    font-family: cursive;
+    text-align: center;
+}
+#cp1-a {
+    background-color: #e6b9ff;
+    color:#fffade;
+    text-align: center;    
+    font-family: sans-serif;
+    padding: 24px;
+}
+#cp1-b {
+    background-color: #a287b0;
+    color: #fffade;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#cp1-c {
+    background-color: #58dece;
+    color: #fffade;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#cp2 {
+    font-family: cursive;
+    text-align: right;
+}
+#cp2-a {
+    background-color: #ffb193;
+    color: #fffade;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding: 24px;
+}
+#cp2-b {
+    background-color: #e2939a;
+    color: #fffade;
+    font-family: fantasy;
+    text-align: left;
+    padding: 24px;
+}
+#cp2-c {
+    background-color: #005fb2;
+    color: #fffade;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 24px;
+}
+#cp3 {
+    font-family: cursive;
+    text-align: left;
+}
+#cp3-a {
+    background-color: #6a7798;
+    color: #fffade;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    padding: 24px;
+}
+#cp3-b {
+    background-color: #a1d094;
+    color: #fffade;
+    font-family: serif;
+    text-align: right;
+    padding: 24px;
+}
+#cp3-c {
+    background-color: #55433c;
+    color: #fffade;
+    font-family: cursive;
+    text-align: right;
+    padding: 24px;
+}
