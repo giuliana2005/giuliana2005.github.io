@@ -1,0 +1,40 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.post-it {
+    background-color: pink;
+    display:inline-block;
+    width:150px;
+    height: 150px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p1{
+    background-color: plum;
+}
+#p2 {
+    background-color:aquamarine;
+}
+
+#p3 {
+    background-color: lightcyan;
+}
+
+#p4 {
+    background-color: lightgreen;
+}
+
+#p5 {
+    background-color: #f0ffa2;
+}
+
+#p6 {
+    background-color: #bcff7e;
+}
