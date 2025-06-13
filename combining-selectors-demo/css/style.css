@@ -6,10 +6,21 @@
 #navbar a {
     color: white;
 }
-
 p a {
+    color: teal;
+}
+.warning a {
     color: orange;
 }
-p.warning a {
-    color: teal;
+p.warning {
+    background-color: rgb(230, 255, 194);
+}
+ul {
+    color: green;
+}
+ul a {
+    color: lime;
+}
+ul div a {
+    color: violet;
 }
