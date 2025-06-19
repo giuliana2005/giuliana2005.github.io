@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 300px;
+}
+.side-by-side {
+    display: flex;
+}
+.sbs {
+    display: flex;
+    gap: 25px;
+}
+.sbs-2 {
+    display: flex;
+    gap: 25px;
+}
+img {
+    width: 200px;
+}
+.sbs-3 {
+    display: flex;
+}
+.sidebar {
+    display: flex;
+}
