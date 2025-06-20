@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/doggypaws.png);
+}
+h3 {
+    font-family: 'Barriecito', system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: chicle;
+}
+h1 {
+    font-family: 'chicle', system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+h2 {
+     font-family: 'Barriecito', system-ui;
+     font-weight: 400;
+     font-style: normal;
+     text-decoration: underline;
+}
+img {
+    width: 100%;
+}
+
+#title-1 {
+    color: #f084c5;
+}
+#title-2 {
+    color: #f084c5;
+}
+#title-3 {
+    color: #f084c5;
+}
+#title-4 {
+    color: #f084c5;
+}
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 600px 250px 1fr;
+    grid-template-areas: 
+        ". a1 a2 ."
+}
+#sidebar {
+    grid-area: a2;
+    padding: 18px;
+}
+#sidebar h2 {
+    background-color: #f084c5;
+    margin: 0px;
+    padding: 12px;
+    color: #ffffff;
+    font-size: 18px;
+}
+#sidebar ul {
+    background-color: #cae5da;
+    border: 2px solid #f084c5;
+    margin: 0px 0px 36px;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#sidebar a {
+    color: #f084c5;
+    text-decoration: none;
+}
+#sidebar li {
+    border-bottom: 2px solid #f084c5;
+    padding: 10px 0px;
+
+}
+#sidebar li:last-child {
+    border-bottom: 0px;
+}
+#main {
+    grid-area: a1;
+    margin: 0px 36px;
+    text-align: center;
+    color: #0d78a5;
+}
+#name-date {
+    color: #f084c5;
+}
+button:hover {
+    color: #f084c5;
+    border: 2px solid #f084c5;
+    background-color: #cae5da;
+}                                    
