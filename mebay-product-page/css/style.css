@@ -4,13 +4,35 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(200, 199, 208);
 }
 img {
     width: 100%;
     object-fit: cover;
 }
-.container {
+.container-1 {
     width: 90dvw;
     max-width: 900px;
     margin: 0px auto;
+}
+#page-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 50px;
+}
+#container-2 img {
+    height: 100%;
+}
+#username {
+    text-decoration-line: underline;
+}
+#moredetails {
+    text-decoration-line: underline;
+}
+#image-container img {
+    display: flex;
+    width: 40px;
+    aspect-ratio: 1/1;
+    margin-right: 15px;
+    border-radius: 50%;
 }
