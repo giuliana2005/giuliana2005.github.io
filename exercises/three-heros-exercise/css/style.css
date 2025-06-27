@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+}
+#hero-1 {
+    background-image: url(../images/flowermeadow.jpg);
+    background-size: cover;
+    background-position: cover;
+    display: flex;
+    align-items: center;
+}
+#hero-1 .container {
+    width: max-content;
+    margin: 0px;
+    background-color: #eacaff;
+}
