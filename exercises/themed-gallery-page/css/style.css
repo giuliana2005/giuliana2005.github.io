@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.hero-1 {
+    background-image: url(../images/aquastarfish.jpg);
+}
+#hero-1 h1 {
+    font-size: 40px;
+    position: absolute;
+    left: 20%;
+}
