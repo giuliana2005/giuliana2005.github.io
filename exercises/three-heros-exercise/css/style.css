@@ -86,6 +86,37 @@ body {
     margin: 0px;
 }
 #hero-3 {
-    
+    background-image: url(../images/flowers-2.jpg);
+    background-size: cover;
+    background-position: cover;
+    max-width: 100%;
+    height: 100dvh;
+    padding: 24px 0px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#hero-3 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    align-items: center;
+    left: 20%;
+}
+#hero-3 a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #93c4ff;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 12px;
+    margin: 24px 12px 0px;
+}
+#hero-3 .container {
+    width: max-content;
+    margin: 0px;
 }
 
