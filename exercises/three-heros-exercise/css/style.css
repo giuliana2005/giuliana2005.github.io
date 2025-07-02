@@ -26,7 +26,7 @@ body {
 #hero-1 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    color: beige;
+    color: #f0d5fd;
     align-items: center;
     right: 30%;
 }
@@ -67,7 +67,7 @@ body {
 #hero-2 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    color: beige;
+    color: #692589;
     align-items: center;
     left: 20%;
 }
@@ -101,7 +101,7 @@ body {
 #hero-3 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    color: #ffffff;
+    color: #5588c7;
     align-items: center;
     left: 20%;
 }
@@ -110,7 +110,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     background-color: #93c4ff;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     display: inline-block;
     padding: 12px;
     margin: 24px 12px 0px;
