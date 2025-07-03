@@ -18,13 +18,14 @@ body {
     margin: 48px auto;
     text-align: center;
     color: pink;
-    font-family: cu;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 400px;
     border: 10px solid #fbffcd;
+    background-color: #ebf6ff;
     padding: 24px;
     gap:  24px;
 }
