@@ -15,13 +15,15 @@ body {
     position: sticky;
     top: 0px;
 }
-#navbar #top {
+#navbar #top .container {
     display: flex;
     align-items: center;
 }
-#navbar #bttm {
+#navbar #bttm .container {
     display: flex;
     justify-content: space-between;
+}
+#navbar #bttm {
     background-color: darkolivegreen;
 }
 #navbar a {
