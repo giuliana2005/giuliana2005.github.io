@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background: linear-gradient(to bottom, #cbffd2, #86c385);
+    display: flex;
+    justify-content: flex-end;
+}
+#navbar a {
+    text-decoration: none;
+    color: 476dec;
+    padding: 24px;
+}
+#navbar h2 {
+    margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1436a5;
+}
+#navbar-2 .cta-button {
+    background-color: rgb(238, 161, 59);
+    border-radius: 20px;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+
+}
+#navbar-2 {
+    background: linear-gradient(to bottom, #fff99f, #ffb370);
+    display: flex;
+    justify-content: flex-end;
+}
+#navbar-2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 24px;
+}
+#navbar-2 h2 {
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+#navbar-top {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+}
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
