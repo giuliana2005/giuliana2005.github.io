@@ -4,4 +4,50 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(../images/dogpaws.png);
+}
+#front-page img {
+    width: 100%;
+}
+#navbar {
+    background-color: #b5fafa;
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: #299974;
+    padding: 24px;
+}
+#navbar h2 {
+    margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#two-columns {
+    display: flex;
+}
+#column1,
+#column2 {
+    flex: 1;
+}
+#column1 img {
+    width: 80%;
+    border-radius: 100dvh;
+}
+#column2 p {
+    position: absolute;
+    left: 50%;
+}
+.column a {
+    display: block;
+    color: black;
+    padding: 12px;
+    margin-top: 150px;
+}
+#column2 a {
+    transition: background-color 0.5s, box-shadow 0.5s, transform 0.5s;
+}
+#column2:hover a {
+    background-color: #b5fafa;
+    box-shadow: 4px 4px 4px #299974;
 }
