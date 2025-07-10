@@ -18,6 +18,7 @@ body {
     text-decoration: none;
     color: #299974;
     padding: 24px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #navbar h2 {
     margin-right: auto;
@@ -37,6 +38,7 @@ body {
 #column2 p {
     position: absolute;
     left: 50%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .column a {
     display: block;
