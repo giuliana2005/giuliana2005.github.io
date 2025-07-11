@@ -10,6 +10,7 @@ body {
     background-color: #b5fafa;
     display: flex;
     align-items: center;
+    font-size: 30px;
 }
 #navbar a {
     text-decoration: none;
@@ -20,6 +21,11 @@ body {
 #navbar h2 {
     margin-right: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 24px;
+    font-size: 50px;
+    
 }
 .center-column {
     width: 50%; 
@@ -36,6 +42,7 @@ body {
     color: #299974;
     padding: 24px;
     text-decoration: none;
+    font-size: 40px;
 }
 .slider {
     overflow-y: hidden;
@@ -66,4 +73,28 @@ body {
 img {
     display: block;
     width: 100%;
+}
+#navbar a:hover {
+    background-color: #fcd3ff;
+}
+.drop {
+    position: relative;
+}
+.drop:hover .menu {
+    opacity: 1;
+    visibility: visible;
+}
+.menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.menu a {
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 200px;
+     display: inline-block;
+}
+#navbar .menu a:hover {
+    background-color: #ffd8d8;
 }
