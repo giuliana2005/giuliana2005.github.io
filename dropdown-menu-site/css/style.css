@@ -35,6 +35,7 @@ body {
 .center-column img {
     padding: 24px;
     width: 100%;
+    max-width: 100%;
 }
 .center-column h2 {
     text-align: center;
@@ -73,6 +74,7 @@ body {
 img {
     display: block;
     width: 100%;
+    max-width: 100%;
 }
 #navbar a:hover {
     background-color: #fcd3ff;
@@ -97,4 +99,83 @@ img {
 }
 #navbar .menu a:hover {
     background-color: #ffd8d8;
+}
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 46px;
+}
+.side-by-side .image-container img {
+    width: 100%;
+    max-width: 100%;
+}
+.side-by-side .text-container a {
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #e9c0ff;
+    color: #b267e1;
+    border-radius: 30dvh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 100%;
+    padding: 20px 20px;
+}
+.side-by-side .text-container p {
+    max-width: 100%;
+    font-size: 30px;
+}
+.side-by-side .text-container h1 {
+    font-size: 50px;
+}
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 46px;
+}
+.side-by-side .image-container img {
+    width: 100%;
+    max-width: 100%;
+}
+.side-by-side .text-container a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #e9c0ff;
+    color: #b267e1;
+    border-radius: 30dvh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 100%;
+    padding: 10px 20px;
+}
+.side-by-side .text-container p {
+    max-width: 50%;
+    font-size: 30px;
+}
+.side-by-side .text-container h1 {
+    font-size: 50px;
+}
+.text-container li {
+    padding: 10px;
 }
