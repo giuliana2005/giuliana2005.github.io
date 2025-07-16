@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
-
-
-
 * {
     box-sizing: border-box;
 }
@@ -37,6 +34,7 @@ body {
 }
 .images-container {
     max-width: 1000px;
+    width: 1000px;
     height: 500px;
     margin: 0px auto;
     display: flex;
@@ -54,10 +52,11 @@ body {
     text-decoration: underline;
     color: #200077;
     font-family: "Bangers", system-ui;
-    text-shadow: -2px -2px 0 #940000,
-                 2px -2px 0 #940000,
-                 -2px 2px 0 #940000,
-                 2px 2px 0 #940000;
+    text-shadow: 
+        -2px -2px 0 #940000,
+        2px -2px 0 #940000,
+        -2px 2px 0 #940000,
+        2px 2px 0 #940000;
 }
 .image2 h3 {
     font-size: 50px;
@@ -66,10 +65,11 @@ body {
     text-decoration: underline;
     color: #ffffff;
     font-family: "Bangers", system-ui;
-    text-shadow: -2px -2px 0 #ffdd00,
-                 2px -2px 0 #940000,
-                 -2px 2px 0 #200077,
-                 2px 2px 0 #787777;
+    text-shadow: 
+        -2px -2px 0 #ffdd00,
+        2px -2px 0 #940000,
+        -2px 2px 0 #200077,
+        2px 2px 0 #787777;
 }
 .more-info p {
     display: inline-block;
@@ -101,6 +101,10 @@ body {
 }
 #card-section {
     color: #ffffff;
+    text-shadow: 
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000;
     padding: 48px;
 }
 .card-container {
@@ -110,8 +114,6 @@ body {
 }
 .card {
     flex: 1;
-    border: 3px solid #ffffff;
-    background-color: #003b1c;
     padding: 20px;
     text-align: center;
     margin: 0 auto;
@@ -151,6 +153,18 @@ body {
 }
 .text-container a:hover {
     background-color: transparent;
-    border: 3px solid hsl(0, 0%, 100%);
-    color: rgb(255, 255, 255);
+    border: 3px solid hwb(0 100% 0%);
+    color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+    .single-column1 {
+    flex-direction: column;
+    align-items: center;
+    }
+    .images-container {
+    margin: 0 auto;
+    }
+    .card {
+    margin: 0 auto;
+    }
 }
