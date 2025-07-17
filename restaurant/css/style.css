@@ -5,8 +5,9 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/italy5.jpg);
-    background-size: 4000px;
+    background: linear-gradient(0deg, #0040a0aa, #fffa),
+    url(../images/italy5.jpg);
+    background-size: cover;
 }
 #navbar {
     background: linear-gradient(to bottom, #586272, #ffffff00);
@@ -34,7 +35,12 @@ body {
     text-align: center;
     font-family: "Fleur De Leah", cursive;
     font-size: 80px;
-    text-decoration: underline;
+    letter-spacing: 5px;
+    text-shadow: 
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000;
+    
 }
 .card a {
     display: block;
@@ -107,6 +113,10 @@ p {
     color: white;
     padding: 5%;
     font-size:25px;
+    text-shadow: 
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000;
 }
 .card-container {
     display: grid;
@@ -138,7 +148,7 @@ p {
 }
 #two-columns {
     display: flex;
-    height: 200px;
+    height: 500px;
 }
 #column-1,
 #column-2 {
@@ -151,6 +161,39 @@ p {
     height: 100%;
 }
 #column-2 {
+    display: flex;
+    align-items: center;
     background-color: antiquewhite;
     width: 50%;
+}
+#column-2 p {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+.single-column {
+    text-align: center;
+    color: white;
+}
+.single-column h2 {
+    font-family: "Fleur De Leah", cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-shadow: 
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000;
+}
+.single-column h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000;
+}
+.single-column p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
