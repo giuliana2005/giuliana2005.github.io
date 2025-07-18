@@ -243,6 +243,7 @@ p {
 }
 .card2 {
     width: 350px;
+    size: 20px;
     border: 10px dotted white;
     border-radius: 5px;
     padding: 20px;
