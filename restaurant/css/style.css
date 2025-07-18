@@ -29,6 +29,7 @@ body {
 
 #navbar #logo img {
     width: 150px;
+    
 }
 .center-column h4 {
     color: #ffffff;
@@ -197,3 +198,185 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
+@media screen and (min-width: 400px) and (max-width: 1280px) {
+    #navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 24px;
+    width: 50%;
+    font-size: 5px;
+}
+
+#navbar h2 {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 50px;
+}
+.center-column h4 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.card a {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    color: white;
+}
+.card h5 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#centered-column {
+    
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    justify-content: center;
+}
+.card2 {
+    width: 350px;
+    border: 10px dotted white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: -4px 4px 12px #586272;
+    background-color: #77859E;
+}
+.card2 h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    text-align: center;
+        font-family: "Fleur De Leah", cursive;
+}
+p {
+    font-size: 18px;
+    text-align: center;
+        
+}
+.card2 a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid #586272;
+    transition: background-color 0.5s color 0.5s;
+
+}
+.card2 a:hover {
+    background-color: transparent;
+    border: 3px solid #F7F08D;
+    color: #F7F08D;
+}
+.card2 img {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    height: 150px;
+    object-fit: cover;
+}
+.center-column h3 { 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 5%;
+    font-size:25px;
+    text-shadow: 
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.slider {
+    overflow-y: hidden;
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+}
+.slider .content {
+    overflow-x: scroll;
+    display: flex;
+    gap: 25px;
+}
+.slider .card {
+    position: relative;
+    width: 300px;
+    min-width: 350px;
+    aspect-ratio: 1 / 1;
+}
+.slider img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 500px;
+}
+#two-columns {
+    display: flex;
+    height: 500px;
+}
+#column-1,
+#column-2 {
+    flex: 1;
+}
+#column-1 img {
+    object-fit: cover;
+    width: 100% ;
+    max-width: 100%;
+    height: 100%;
+}
+#column-2 {
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 50%;
+}
+#column-2 p {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.single-column {
+    text-align: center;
+    color: white;
+}
+.single-column h2 {
+    font-family: "Fleur De Leah", cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-shadow: 
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000;
+}
+.single-column h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    -2px -2px 0 #000000;
+}
+.single-column p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+}
+    
